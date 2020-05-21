@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MyLibModule } from 'my-lib';
+import { Mylib2Module } from 'mylib2';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { MyLibModule } from 'my-lib';
   ],
   imports: [
     BrowserModule,
-    MyLibModule
+    MyLibModule,
+    Mylib2Module
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,17 +2,17 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-my-lib',
-  template: `
-    <p>
-      my-lib work!!!!
-    </p>
-  `,
+  templateUrl: 'my-lib.component.html',
   styles: [
   ]
 })
 export class MyLibComponent implements OnInit {
 
   constructor() { }
+
+  public value = "Sonali Agrawal";
+
+  public valu2 = " Description"
 
   ngOnInit(): void {
   }
