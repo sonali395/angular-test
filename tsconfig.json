@@ -17,10 +17,10 @@
     ],
     "paths": {
       "my-lib": [
-        "./projects/my-lib/src/public-api.ts"
+        "dist/my-lib"
       ],
       "mylib2": [
-        "./projects/mylib2/src/public-api.ts"
+        "dist/mylib2"
       ]
     }
   },
